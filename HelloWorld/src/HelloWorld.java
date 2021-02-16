@@ -1,10 +1,12 @@
-
+import java.time.*;
 public class HelloWorld {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello World!!!");
+		LocalDate localDate = LocalDate.now();
+		System.out.println("Hello World!!! \n\n" + "Testing this GitHub functionality. \n");
 
+		System.out.println("Today's Date : " + localDate);
 	}
 
 }
